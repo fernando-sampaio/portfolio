@@ -1,4 +1,4 @@
-import meter1 from "../assets/img/meter1.svg";
+import meter1 from "../assets/img/60.png";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
