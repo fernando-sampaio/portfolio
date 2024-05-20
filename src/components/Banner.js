@@ -4,6 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { redirect } from "react-router-dom";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -47,6 +48,9 @@ export const Banner = () => {
     }
   }
 
+
+  const url = 'https://api.whatsapp.com/send/?phone=5512997360372&text&type=phone_number&app_absent=0'
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -58,7 +62,8 @@ export const Banner = () => {
                 <span className="tagline">Bem vindo ao meu Portfolio</span>
                 <h1>{`Olá, eu sou `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Entre em contato <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window.open(url, '_blank')} >Entre em contato <ArrowRightCircle size={25} /></button>
+                  
               </div>}
             </TrackVisibility>
           </Col>

@@ -1,6 +1,8 @@
-import meter1 from "../assets/img/60.png";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import p50 from "../assets/img/50.svg";
+import p60 from "../assets/img/60.svg";
+import p70 from "../assets/img/70.svg";
+import p80 from "../assets/img/80.svg";
+import p90 from "../assets/img/90.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -34,31 +36,31 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <h2 className="titulo">Habilidades</h2>
+                        
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={p90} alt="Image" />
                                 <h5>Html/Css</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={p60} alt="Image" />
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={p60} alt="Image" />
                                 <h5>ReactJS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={p80} alt="Image" />
                                 <h5>Wordpress</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={p80} alt="Image" />
                                 <h5>Desing de Interface</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={p90} alt="Image" />
                                 <h5>Figma</h5>
                             </div>
                         </Carousel>
