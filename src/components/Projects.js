@@ -50,7 +50,8 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projetos</h2><Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <h2>Projetos</h2><br/>
+                <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Institucionais</Nav.Link>
@@ -77,7 +78,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    <Tab.Pane eventKey="second">
                     <Row>
                         {
                           projects.map((project, index) => {
