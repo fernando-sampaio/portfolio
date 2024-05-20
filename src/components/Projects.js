@@ -53,13 +53,13 @@ export const Projects = () => {
                 <h2>Projetos</h2><Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">ReactJS</Nav.Link>
+                      <Nav.Link eventKey="first">Institucionais</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Wordpress</Nav.Link>
+                      <Nav.Link eventKey="second">Ecommerce</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">React Native</Nav.Link>
+                      <Nav.Link eventKey="third">Landing Pages</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

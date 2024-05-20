@@ -54,11 +54,11 @@ export const Skills = () => {
                                 <h5>Wordpress</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter2} alt="Image" />
                                 <h5>Desing de Interface</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter3} alt="Image" />
                                 <h5>Figma</h5>
                             </div>
                         </Carousel>
