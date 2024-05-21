@@ -8,7 +8,7 @@ export const Newsletter = () => {
         <div className="newsletter-bx wow slideInUp">
           <Row>
             <Col lg={12} md={6} xl={5}>
-              <h3>Botar algo <br></br>aqui</h3>
+              <p></p>
              </Col> 
           </Row>
         </div>
